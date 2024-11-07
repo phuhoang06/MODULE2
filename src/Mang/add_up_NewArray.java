@@ -38,17 +38,13 @@ public class add_up_NewArray {
         }
         int[] arr3;
         arr3 = new int[arr2.length + arr1.length];
-        for (int e = 0; e < arr3.length-1; e++) {
-            if (e<arr1.length) {
+        for (int e = 0; e < arr1.length; e++) {
                 arr3[e] = arr1[e];
-            }
-            else {
-                for (int j = 0; j < arr2.length; j++) {
-                    arr3[e] = arr2[j];
-                    e++;
-                }
-            }
         }
+        for (int e = 0; e < arr2.length; e++) {
+            arr3[arr1.length + e] = arr2[e];
+        }
+
         for (int j = 0; j < arr3.length; j++) {
             System.out.println("arr new :" + arr3[j]);
         }
