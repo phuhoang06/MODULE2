@@ -1,3 +1,5 @@
+package Mang;
+
 import java.util.Scanner;
 
 public class add_value_array {

@@ -1,3 +1,5 @@
+package Mang;
+
 import java.util.Scanner;
 
 public class remove_value_in_array {
@@ -19,7 +21,6 @@ public class remove_value_in_array {
             arr[i] = sc.nextInt();
             i++;
         }
-        System.out.println("Luu y moi lan chi xoa 1 phan tu");
         int s;int x;
         boolean found ;
         do {

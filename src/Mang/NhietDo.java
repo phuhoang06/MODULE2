@@ -1,3 +1,5 @@
+package Mang;
+
 import java.util.Scanner;
 
 public class NhietDo {
