@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1597c61-4083-42a4-a9e0-aeb0d286f44d" name="Changes" comment="add up new array">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mang/StudentArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d1597c61-4083-42a4-a9e0-aeb0d286f44d" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/OOP/MainQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/QuadraticEquation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mang/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NhietDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mang/NhietDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/add_up_NewArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mang/add_up_NewArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/add_value_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mang/add_value_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/find_max_element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mang/find_max_element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/find_min_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mang/find_min_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/remove_value_in_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mang/remove_value_in_array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.MainQ.executor": "Debug",
     "Application.NhietDo.executor": "Run",
     "Application.StudentArray.executor": "Run",
     "Application.add_up_NewArray.executor": "Run",
@@ -76,10 +66,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainQ">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOP.Main" />
       <module name="MODULE2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.DELTA.MainQ" />
+      <module name="MODULE2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.DELTA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,13 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="find_min_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mang.find_min_array" />
-      <module name="MODULE2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="remove_value_in_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mang.remove_value_in_array" />
       <module name="MODULE2" />
@@ -114,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainQ" />
         <item itemvalue="Application.remove_value_in_array" />
-        <item itemvalue="Application.add_up_NewArray" />
-        <item itemvalue="Application.find_min_array" />
         <item itemvalue="Application.NhietDo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.add_up_NewArray" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +138,7 @@
       <workItem from="1730867480772" duration="2838000" />
       <workItem from="1730877927887" duration="8564000" />
       <workItem from="1730900291843" duration="6591000" />
-      <workItem from="1730944218856" duration="1771000" />
+      <workItem from="1730944218856" duration="4884000" />
     </task>
     <task id="LOCAL-00001" summary="add findMax">
       <option name="closed" value="true" />
@@ -192,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730908803152</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1730946025515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730946025515</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,15 +209,16 @@
     <MESSAGE value="remove array" />
     <MESSAGE value="add new array" />
     <MESSAGE value="add up new array" />
-    <option name="LAST_COMMIT_MESSAGE" value="add up new array" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Mang/remove_value_in_array.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/OOP/MainQ.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
