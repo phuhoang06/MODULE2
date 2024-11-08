@@ -1,19 +1,22 @@
 package OOP.StopWatch;
 public class StopWatch {
     private long startTime;
-    private long endTime;
-    public StopWatch() {
-        startTime = 0;
-        endTime = 0;
-    }
+    private long stopTime;
+
+    public StopWatch() {}
+
     public void start() {
         startTime = System.currentTimeMillis();
+        System.out.println("Start time is " + System.currentTimeMillis());
     }
+
     public void stop() {
-        endTime = System.currentTimeMillis();
+        stopTime = System.currentTimeMillis();
+        System.out.println("End time is " + System.currentTimeMillis());
     }
+
     public long getElapsedTime() {
-        return endTime - startTime;
+        return stopTime - startTime;
     }
 }
 
