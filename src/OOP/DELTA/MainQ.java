@@ -12,6 +12,6 @@ public class MainQ {
         System.out.println("Enter c : ");
         double c = sc.nextDouble();
         QuadraticEquation q = new QuadraticEquation(a, b, c);
-        System.out.println(q.getDiscriminant());
+        q.getDiscriminant();
     }
 }
