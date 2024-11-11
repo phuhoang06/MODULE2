@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1597c61-4083-42a4-a9e0-aeb0d286f44d" name="Changes" comment="update 1">
-      <change afterPath="$PROJECT_DIR$/src/access_modifier/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access_modifier/RunCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d1597c61-4083-42a4-a9e0-aeb0d286f44d" name="Changes" comment="&#10;&#10;&#10;q">
+      <change afterPath="$PROJECT_DIR$/src/access_modifier/BT_Run_Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access_modifier/BT_Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +157,7 @@
       <workItem from="1731028338674" duration="5298000" />
       <workItem from="1731036589021" duration="3849000" />
       <workItem from="1731052633504" duration="1384000" />
-      <workItem from="1731296178902" duration="1523000" />
+      <workItem from="1731296178902" duration="1905000" />
     </task>
     <task id="LOCAL-00001" summary="add findMax">
       <option name="closed" value="true" />
@@ -264,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731296992269</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&#10;&#10;&#10;q">
+      <option name="closed" value="true" />
+      <created>1731297755442</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731297755442</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +286,8 @@
     <MESSAGE value="add up new array" />
     <MESSAGE value="update" />
     <MESSAGE value="update 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 1" />
+    <MESSAGE value="&#10;&#10;&#10;q" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;&#10;q" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
